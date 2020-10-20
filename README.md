@@ -30,9 +30,10 @@ I have built a working form that lets you create and edit a user using Ruby on R
 3. - [ ] Run `git clone git@github.com:DcRonan/re-former.git` to download <b>or</b> you can download using `HTTPS` by running `git clone https://github.com/DcRonan/re-former.git` in the terminal
 4. - [ ] Run `cd re-former` to enter directory
 5. - [ ] Run `bundle install` to install Ruby Gems (<b>hint:</b> Mac users, if not working then run `sudo bundle install`)
-6. - [ ] Run `rails db:migrate` to migrate your database on your local machine
-7. - [ ] Run `rails console` to get started
-8. - [ ] Open `http://localhost:3000/` in your browser
+6. - [ ] Run `rails db:create` to create the database
+7. - [ ] Run `rails db:migrate` to migrate your database on your local machine
+8. - [ ] Run `rails console` to get started
+9. - [ ] Open `http://localhost:3000/` in your browser
 
 ## Authors
 
