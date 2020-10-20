@@ -1,0 +1,13 @@
+<%= form_for @user do |f| %>
+
+<% if @user.errors.any? %>
+  <% @user.errors.full_messages.each do |error| %>
+    <%= error %>
+  <% end %>
+<% end %>
+
+  Username: <%= f.text_field :username %>
+  Email: <%= f.email_field :email, placeholder: 'example@example.com' %>
+  Password: <%= f.password_field :password, placeholder: '********' %>
+  <%= f.submit "Submit" %>
+<% end %>
