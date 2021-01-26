@@ -28,7 +28,7 @@ I have built a working form that lets you create and edit a user using Ruby on R
 1. - [ ] Open your `Terminal`
 2. - [ ] Navigate to the directory where you will like to install the repo by running `cd FOLDER-NAME`
 3. - [ ] Run `git clone git@github.com:DcRonan/re-former.git` to download <b>or</b> you can download using `HTTPS` by running `git clone https://github.com/DcRonan/re-former.git` in the terminal
-4. - [ ] Run `cd re-former` to enter directory
+4. - [ ] Run `cd re-former` to enter the directory
 5. - [ ] Run `bundle install` to install Ruby Gems (<b>hint:</b> Mac users, if not working then run `sudo bundle install`)
 6. - [ ] Run `rails db:create` to create the database
 7. - [ ] Run `rails db:migrate` to migrate your database on your local machine
@@ -47,7 +47,7 @@ I have built a working form that lets you create and edit a user using Ruby on R
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](https://github.com/DcRonan/re-former/issues).
 
 ### Show your support
 
